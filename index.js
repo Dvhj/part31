@@ -12,7 +12,7 @@ button1.addEventListener('click', timeUseMonth)
 
 function timeUseYear(){
 	money1.innerHTML = '$30<span class="min_size">/month'
-	money2.innerHTML = '$300<span class="min_size">/month</span>'
+	money2.innerHTML = '$120<span class="min_size">/month</span>'
 	button2.classList.remove('but2_js')
 	button2.classList.add('but1_js')
 	button1.classList.remove('but1_js')
@@ -20,7 +20,7 @@ function timeUseYear(){
 }
 function timeUseMonth(){
 	money1.innerHTML = '$29<span class="min_size">/month</span>'
-	money2.innerHTML = '$300<span class="min_size">/month</span>'
+	money2.innerHTML = '$100<span class="min_size">/month</span>'
 	button1.classList.remove('but2_js')
 	button1.classList.add('but1_js')
 	button2.classList.remove('but1_js')
